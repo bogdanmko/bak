@@ -1,9 +1,0 @@
-D:\MISC_PROJECTS\Bak\bin\Debug\Bak.exe
-D:\MISC_PROJECTS\Bak\bin\Debug\Bak.pdb
-D:\MISC_PROJECTS\Bak\obj\Debug\ResolveAssemblyReference.cache
-D:\MISC_PROJECTS\Bak\obj\Debug\Bak.DeleteFilesDlg.resources
-D:\MISC_PROJECTS\Bak\obj\Debug\Bak.CformBak.resources
-D:\MISC_PROJECTS\Bak\obj\Debug\ResGen.read.1.tlog
-D:\MISC_PROJECTS\Bak\obj\Debug\ResGen.write.1.tlog
-D:\MISC_PROJECTS\Bak\obj\Debug\Bak.exe
-D:\MISC_PROJECTS\Bak\obj\Debug\Bak.pdb
