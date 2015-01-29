@@ -10,6 +10,8 @@ $RECYCLE.BIN/
 
 #Binary files directories
 bin/
+bin/Debug/
+bin/Release/
 obj/
 php/lib/
 
