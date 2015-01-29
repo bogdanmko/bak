@@ -1,5 +1,3 @@
-11.08.11 ***WARNING:Parameter "MaxDiskSpaceToUse" read error. Using default value 0.
-11.08.11 
 
 
 08.11.2011 14:20 ############# Now backing up to: g:\bak\mlcbak_11_25_2011.zip ###################

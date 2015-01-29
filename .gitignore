@@ -9,10 +9,8 @@ Desktop.ini
 $RECYCLE.BIN/
 
 #Binary files directories
-bin/
-obj/
-backuper_log.txt
-
+bin/*
+obj/*
 
 # Windows Installer files
 *.cab
