@@ -11,6 +11,7 @@ $RECYCLE.BIN/
 #Binary files directories
 bin/
 obj/
+php/lib/
 
 # Windows Installer files
 *.cab
