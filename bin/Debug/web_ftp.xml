@@ -1,0 +1,66 @@
+<!--<?xml version="1.0"?>-->
+<bak
+
+ flash="f:,e:,h:"
+ SimulateDate="0"
+ NotifyURL="http://www.pad2pad.com/_prog/notify/index.php"
+ Archiver="f:\Program Files\WinZip\wzzip.exe" 
+ ArchiverParams="-a -P -r -jhrs -whs -ep -bf:\temp {dst} -scpo9tsm1 {src}" 
+ ArcFileExtension="zip" 
+ LogFile="backup_result_detail.txt"
+ SummaryFile="backup_result_summary.txt"
+ Test="NO"
+ Device_c="\\flash" 
+ Device_f="\\server-ems" 
+ Device_n="\\nas1"
+
+>
+
+<job 
+  Name = "Backup web ftp"
+  BakDevice="nasb:\\"
+  DirToSaveBakTo="b:" 
+  ArcFilePrefix="mlc_web_site_pages_bak_" 
+  Directory="mlc_web_pages"
+  ExtraSpaceFactor="2.5"
+  WriteStdErrToLog="0"
+  LeaveFreeDiskSpace="5000000"
+  MaxDiskSpaceToUse="35000000000"
+>
+<src>
+    <aftercmd Exe="c:\windows\system32\cmd.exe" 
+	          Params='/c "{config_dir}ftpb_miclog.cmd f:\temp\bak\mlc_web\"'
+			  WriteStdErrToLog="1"                           
+                          ShowWindow="1"
+	  />
+
+</src>
+<src>
+    <aftercmd Exe="c:\windows\system32\cmd.exe" 
+	          Params='/c "{config_dir}ftpb_pad2pad.cmd f:\temp\bak\p2p_web\"'
+			  WriteStdErrToLog="1"                           
+                          ShowWindow="1"
+	  />
+
+</src>
+
+
+<src location="f:\temp\bak\mlc_web\*.zip Directory="mlc_web_pages""/>
+<src checkfile="{bak}"/>
+
+<src ArcFilePrefix="mlc_web_site_db_bak_" location="f:\temp\bak\mlc_web\*.sql" Directory="mlc_web_db"/>
+<src checkfile="{bak}"/>
+
+<src ArcFilePrefix="p2p_web_site_pages_bak_" location="f:\temp\bak\p2p_web\*.zip" Directory="p2p_web_pages"/>
+<src checkfile="{bak}"/>
+
+<src ArcFilePrefix="p2p_web_site_db_bak_" location="f:\temp\bak\p2p_web\*.sql Directory="p2p_web_db""/>
+<src checkfile="{bak}"/>
+
+
+
+
+</job>
+
+
+</bak>

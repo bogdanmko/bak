@@ -1,0 +1,51 @@
+<!--<?xml version="1.0"?>-->
+<job 
+  DirToSaveBakTo="n:\backup\serverems" 
+  Archiver="f:\Program Files\WinZip\wzzip.exe" 
+  ArchiverParams="-a -P -r -jhrs -whs -ep -bf:\temp {dst} -scpo9tsm1 {src}" 
+  ArcFilePrefix="mlc_bak_" 
+  LogFile="bak_report.txt" 
+  ArcFileExtension="zip" 
+  ExtraSpaceFactor="2.5"
+  LeaveFreeDiskSpace="925200000"
+  MaxDiskSpaceToUse="250000000000"
+  WriteStdErrToLog="0"
+>
+
+<src ArcFilePrefix="mlc_bak_" />
+
+ <src location="f:\Repositories\*.*" Weight="6" MaxWaitTime_Sec="800"/>
+ <src location="f:\Mgr\*.*" Weight="3" MaxWaitTime_Sec="600"/>
+ <src location="f:\WINDOWS\Tasks\*.*" Weight="3" MaxWaitTime_Sec="600"/>
+ <src location="f:\OE\*.*" Weight="3" MaxWaitTime_Sec="600">
+ 
+     <aftercmd Exe="f:\windows\system32\cmd.exe" 
+	          Params='/c f:\Mgr\backup\copy_backups.cmd {bak} miclog_weekly_backup.zip'
+			  WriteStdErrToLog="1"
+                          ShowWindow="1"
+			  EnabledByCmdSwitch="-dvd"
+  nowait="1"
+	  />
+
+</src>
+
+<src ArcFilePrefix="pemso_gdb_bak_"/>
+
+
+ <src location="f:\temp\pemso_db_copy\*.*" Weight="12" MaxWaitTime_Sec="1200"> 
+     <aftercmd Exe="f:\windows\system32\cmd.exe" 
+	          Params='/c f:\Mgr\backup\copy_backups.cmd {bak} pemsodb_weekly_backup.zip'
+			  WriteStdErrToLog="1"
+                          ShowWindow="1"
+			  EnabledByCmdSwitch="-dvd"
+nowait="1"
+	  />
+</src>
+
+
+
+
+
+
+
+ </job>

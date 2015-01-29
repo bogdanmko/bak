@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Bak">
+</Property><Property Name="Solution File" Value="D:\MISC_PROJECTS\Bak\Bak.sln">
+</Property><Property Name="User Options File" Value="D:\MISC_PROJECTS\Bak\Bak.suo">
+</Property><Property Name="Date" Value="19 листопада 2013 р.">
+</Property><Property Name="Time" Value="12:12">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Bak.sln" Description="File successfully backed up as D:\MISC_PROJECTS\Bak\Backup\Bak.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Bak.suo" Description="File successfully backed up as D:\MISC_PROJECTS\Bak\Backup\Bak.suo">
+</Event><Event ErrorLevel="0" Project="Bak" Source="Bak.csproj" Description="Project file successfully backed up as D:\MISC_PROJECTS\Bak\Backup\Bak.csproj">
+</Event><Event ErrorLevel="0" Project="Bak" Source="Bak.csproj.user" Description="Project user file successfully backed up as D:\MISC_PROJECTS\Bak\Backup\Bak.csproj.user">
+</Event><Event ErrorLevel="0" Project="Bak" Source="AssemblyInfo.cs" Description="File successfully backed up as D:\MISC_PROJECTS\Bak\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Bak" Source="Defs.cs" Description="File successfully backed up as D:\MISC_PROJECTS\Bak\Backup\Defs.cs">
+</Event><Event ErrorLevel="0" Project="Bak" Source="DeleteFilesDlg.cs" Description="File successfully backed up as D:\MISC_PROJECTS\Bak\Backup\DeleteFilesDlg.cs">
+</Event><Event ErrorLevel="0" Project="Bak" Source="ErrorNotificator.cs" Description="File successfully backed up as D:\MISC_PROJECTS\Bak\Backup\ErrorNotificator.cs">
+</Event><Event ErrorLevel="0" Project="Bak" Source="FormBak.cs" Description="File successfully backed up as D:\MISC_PROJECTS\Bak\Backup\FormBak.cs">
+</Event><Event ErrorLevel="0" Project="Bak" Source="Log.cs" Description="File successfully backed up as D:\MISC_PROJECTS\Bak\Backup\Log.cs">
+</Event><Event ErrorLevel="0" Project="Bak" Source="LogBase.cs" Description="File successfully backed up as D:\MISC_PROJECTS\Bak\Backup\LogBase.cs">
+</Event><Event ErrorLevel="0" Project="Bak" Source="Utils.cs" Description="File successfully backed up as D:\MISC_PROJECTS\Bak\Backup\Utils.cs">
+</Event><Event ErrorLevel="0" Project="Bak" Source="WinAPI.cs" Description="File successfully backed up as D:\MISC_PROJECTS\Bak\Backup\WinAPI.cs">
+</Event><Event ErrorLevel="0" Project="Bak" Source="App.ico" Description="File successfully backed up as D:\MISC_PROJECTS\Bak\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="Bak" Source="DeleteFilesDlg.resx" Description="File successfully backed up as D:\MISC_PROJECTS\Bak\Backup\DeleteFilesDlg.resx">
+</Event><Event ErrorLevel="0" Project="Bak" Source="FormBak.resx" Description="File successfully backed up as D:\MISC_PROJECTS\Bak\Backup\FormBak.resx">
+</Event><Event ErrorLevel="1" Project="Bak" Source="Bak.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="Bak" Source="Bak.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Bak" Source="Bak.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Bak.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Bak.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Bak" Source="Bak.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,36 @@
+<!--<?xml version="1.0"?>-->
+<bak
+
+ flash="f:,e:,h:"
+ SimulateDate="1"
+ NotifyURL="http://www.pad2pad.com/_prog/notify/index.php"
+ Archiver="C:\Program Files\WinRar\rar.exe" 
+ ArchiverParams="u -r -m1 -mt4 {dst} {src}" 
+ ArcFileExtension="rar" 
+ LogFile="backup_result_detail.txt"
+ SummaryFile="backup_result_summary.txt"
+ Test="YES"
+ Device_c="\\server-ems" 
+ Device_n="\\nas1"
+
+>
+
+<job 
+  Name = "Backup serverems"
+  BakDevice="nasb:\\"
+  DirToSaveBakTo="c:\temp\backup" 
+  DirToSaveBakToAlt="c:\bak" 
+  ArcFilePrefix="mlcbak_" 
+  Directory="p2p_designs"
+  ExtraSpaceFactor="2.5"
+  WriteStdErrToLog="0"
+  LeaveFreeDiskSpace="5000000"
+  BakFilesCountLimit="10"
+>
+
+<src location="c:\temp\pad2pad\*.*">
+</src>
+
+</job>
+
+</bak>
