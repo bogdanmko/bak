@@ -1,6 +1,3 @@
-08.11.2011 14:20 ############# Now backing up to: g:\bak\mlcbak_11_25_2011.zip ###################
-
-
 11.08.11 
 11.08.11 
 11.08.11 Processing XML jobs file test_job.xml
