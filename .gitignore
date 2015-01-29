@@ -9,8 +9,8 @@ Desktop.ini
 $RECYCLE.BIN/
 
 #Binary files directories
-bin/*
-obj/*
+bin/
+obj/
 
 # Windows Installer files
 *.cab
